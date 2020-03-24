@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>task-01</title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    
+    <body>
+        <a-scene>
+            <!-- Box -->
+            <a-box color ="#006a4e"
+                   height = "3"
+                   width = "5"
+                   depth = "0.1"
+                   position = "0 5 -11">
+                
+                <a-circle color = "#f42a41"
+                          radius = "1"
+                          position = "0 0 0.06">
+                </a-circle>
+                
+                <a-cylinder color = "#5d432c"
+                            radius = "0.1"
+                            height = "10"
+                            position = "-2.6 -3.3 0">
+                    
+                    <a-box color = "#5d432c"
+                           width = "2"
+                           height = "0.5"
+                           position = "0 -4.9 0"
+                           side = "double">
+                        
+                        <a-box color = "brown"
+                               width = "3"
+                               height = "0.5"
+                               position = "0 -0.35 0"
+                               side = "double">
+                        </a-box>
+                    </a-box>
+                </a-cylinder>
+            </a-box>
+            
+            
+        </a-scene>
+    </body>
+</html>
